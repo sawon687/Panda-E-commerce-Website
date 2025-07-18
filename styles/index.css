@@ -10,7 +10,20 @@
     max-width: 1280px;
      margin: auto;
 }
-
+.panda-btn{
+    padding: 15px 35px;
+   background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: -10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 /* navbar section */
 /* custom css */
 nav{
@@ -57,4 +70,46 @@ font-size: 1.2em;
     margin-right: 10px;
     color: #707070;
   
+}
+
+
+
+/* banner section */
+
+.banner{
+    background-color: #FEEAE9;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+    gap: 5px;
+    padding: 35px;
+    border-radius: 10px;
+    margin-top: 25px;
+
+  
+}
+.banner img{
+    max-width: 402px;
+    height: 378px;
+}
+.banner h2{
+    font-size: 52px;
+    color: rgb(31, 31, 31);
+  font-weight: bold;
+}
+.banner p{
+font-weight: 400;
+font-size: 16px;
+color: #4E4E4E;
+text-align: left;
+max-width: 500px;
+
+}
+.banner-price{
+    display: block;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FF136F;
+    margin-bottom: 20px;
+    
 }
